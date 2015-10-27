@@ -71,6 +71,7 @@
         android:text="Registrarse"
         android:onClick="RegisterOnOff"
         android:id="@+id/chkBoxRegistrar"
+        android:textSize="15sp"
         android:layout_below="@+id/btnLogin"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"

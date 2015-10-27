@@ -1,5 +1,7 @@
 package com.example.carlos_2.comunio;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +21,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -36,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         Tab1 = (TextView)findViewById(R.id.textView1);
         username = com.example.carlos_2.comunio.Main2Activity.user;
         Tab1.setText(username);
-
 
 
         names = getResources().getStringArray(R.array.nav_options);
@@ -90,7 +92,6 @@ public class MainActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -102,9 +103,11 @@ public class MainActivity extends AppCompatActivity {
     private class DrawerItemClickListener implements
             ListView.OnItemClickListener {
         @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position,
+                public void onItemClick(AdapterView<?> parent, View view, int position,
                                 long id) {
-            selectItem(position);
+                 selectItem(position);
+                if (position==4) finish();
+
         }
     }
 
@@ -119,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
         //Reemplazar contenido
         FragmentManager fragmentManager = getFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+
 
         // Se actualiza el item seleccionado y el título, después de cerrar el drawer
 
