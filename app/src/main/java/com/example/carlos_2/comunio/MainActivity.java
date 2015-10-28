@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String[] names;
     private DrawerLayout mDrawerLayout;
+    private ArrayAdapter<String> mAdapter;
     private ListView mDrawerList;
     String username;
     TextView Tab1;
@@ -46,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
 
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+        mAdapter= new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, names);
-        mDrawerList.setAdapter(adapter);
+        mDrawerList.setAdapter(mAdapter);
 
         mDrawerList.setOnItemClickListener(new DrawerItemClickListener());
 
@@ -100,16 +101,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class DrawerItemClickListener implements
-            ListView.OnItemClickListener {
-        @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position,
-                                long id) {
-                 selectItem(position);
-                if (position==4) finish();
-
-        }
-    }
 
     private void selectItem(int position) {
         // Crear nuevo fragmento
@@ -128,6 +119,18 @@ public class MainActivity extends AppCompatActivity {
         // Se actualiza el item seleccionado y el título, después de cerrar el drawer
 
         mDrawerLayout.closeDrawer(mDrawerList);
+        Toast.makeText(MainActivity.this, "Registrar", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public class DrawerItemClickListener implements
+            ListView.OnItemClickListener {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position,
+                                long id) {
+            
+            selectItem(position);
+        }
     }
 
 }
