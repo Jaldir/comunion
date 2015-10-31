@@ -1,0 +1,11 @@
+--- Estimaciones
+
+Estimamos el coste de las hstorias de usuario en base a su complejidad y la experiencia
+
+--- Retrospectiva
+
+Analizamos el sprint.
+
+Cosas buenas: Participado más, organizado mejor, gracias al proyecto github somos capaces de controlar las versiones mas facilmente
+
+Cosas a mejorar: Hemos sidos demasiado optimistas al estimar y por tanto no hemos conseguido terminar todas las historias de usuario
