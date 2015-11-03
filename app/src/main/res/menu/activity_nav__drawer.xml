@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camara"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="Mi Equipo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Jugadores" />
+        <item
+            android:id="@+id/nav_mercado"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Mercado" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Ajustes" />
+    </group>
+
+    <item android:title="Más">
+        <menu>
+            <item android:id="@+id/nav_jugar"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Como jugar" />
+            <item android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

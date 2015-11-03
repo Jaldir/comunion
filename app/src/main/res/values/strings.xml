@@ -1,15 +1,32 @@
 <resources>
-    <string name="app_name">Comunio</string>
-    <string name="action_settings">Settings</string>
-    <string name="txt1">Buenas</string>
-    <string name="title_activity_main2">Comunio</string>
-    <string-array name="nav_options">
-        <item>Mi perfil</item>
-        <item>Ligas</item>
-        <item>Como jugar</item>
-        <item>Configuración</item>
-        <item>Salir</item>
-    </string-array>
+    <string name="app_name">Comunio 2.0</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_nav_">Nav_Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="open_drawer">Drawer abierto</string>
+    <string name="close_drawer">Drawer cerrado</string>
+
+    <string name="action_settings">Settings</string>    <string-array name="nav_options">
+    <item>Mi perfil</item>
+    <item>Ligas</item>
+    <item>Como jugar</item>
+    <item>Configuración</item>
+    <item>Salir</item>
+</string-array>
     <string-array name="Jugadores">
         <item>Jug1</item>
         <item>Jug2</item>
@@ -20,4 +37,46 @@
         <item>Jug7</item>
         <item>Jug8</item>
     </string-array>
+    <string name="title_activity_mercado">Mercado</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string-array name="nav_drawer_items">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string name="Username">Introduce tu usuario:</string>
+    <string name="Contraseña">Introduce tu contraseña:</string>
+    <string name="login">Log In</string>
+    <string name="title_activity_logged_in">Comunio</string>
+
+
+
+    <string name="Uso">Uso</string>
+    <string name="jugadores">Listado Jugadores</string>
+
+    <string name="listEquipos">Equipos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listJugadores">Jugadores</string>
+    <string name="extras">Extras</string>
+    <string name="LogOut">Desconectar</string>
+    <string name="fragment1">Fragmento 1</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_datos_jugador">Datos Jugador</string>
+
+
+
 </resources>
