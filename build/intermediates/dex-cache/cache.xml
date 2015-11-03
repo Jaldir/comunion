@@ -2,18 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/Luisca/Desktop/PRUEBAS Practica comunio/Comunio2.0/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/classes.jar"
+        jar="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1a57337a520bf40b9ad1e074cb780527dffa1aac">
-        <dex dex="/Users/Luisca/Desktop/PRUEBAS Practica comunio/Comunio2.0/app/build/intermediates/pre-dexed/debug/classes-8e003a00d8c0fc2cc8f68899bfbba579d534c1cf.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/pre-dexed/debug/classes-dcd73dc2cad88265ae9ba49a335e88d9396f16de.jar" />
     </item>
     <item
-        jar="/Users/Luisca/Desktop/PRUEBAS Practica comunio/Comunio2.0/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jar="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="076c7d9e22cc325b8008ff799e0c06dfb8eefdf3">
-        <dex dex="/Users/Luisca/Desktop/PRUEBAS Practica comunio/Comunio2.0/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-d0e74773468039033ea39d73cc0c028649ae57ad.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-3476fac7f8ced68f5aefaa108a72c2a9d5646d6a.jar" />
+    </item>
+    <item
+        jar="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/pre-dexed/debug/classes-87980f74917c9d41f09eb7f81dc39295d159f1aa.jar" />
+    </item>
+    <item
+        jar="/Users/Luisca/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/Luisca/Desktop/Comunio/comunion/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-269b2521b1c02506509b1fc80cead0d330d3ed1d.jar" />
     </item>
 
 </items>
